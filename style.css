@@ -1,0 +1,32 @@
+body
+{
+    font-family: 'Montserrat', sans-serif;
+    background-size: cover;
+    font-size: 28px !important;
+}
+.head1
+{
+    width:100%;
+    height:50px;
+    font-size: 28px;
+}
+#footer1
+{
+    background-color: burlywood;
+    width: 100%;
+    bottom:0;
+    position: fixed;
+    text-align: center;
+    font-size: 24px;
+}
+canvas
+{
+    animation-name: animation1;
+    animation-iteration-count: infinite;
+    animation-duration:3.2s;
+}
+@keyframes animation1
+{
+    from{box-shadow: 8px 8px 16px pink;}
+    to{box-shadow: 8px 8px 16px cyan;}
+}
